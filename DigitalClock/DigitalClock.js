@@ -3,11 +3,11 @@ function showTime() {
 		var hour = time.getHours();
 		var min = time.getMinutes();
 		var sec = time.getSeconds();
-		var session = "PM";
+		var session = "AM";
 
 		if(hour >= 12){
 			hour -= 12;
-			session = "AM";
+			session = "PM";
 		}
 		if(hour == 0){
 			hour =12;
