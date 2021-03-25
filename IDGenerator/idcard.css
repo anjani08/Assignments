@@ -1,0 +1,31 @@
+.cardGenerator{
+	background: lightblue;
+	max-width: 700px;
+	line-height: 30px;
+	min-width: 350px;
+	color: darkblue;
+	font-size: 20px;
+	margin:auto;
+	text-align:center;
+}
+
+#getDetail{
+	float:left;
+	width: 50%;
+	text-align:center;
+	background: aliceblue;
+	overflow: hidden
+}
+
+#showId{
+	background: aliceblue;
+}
+
+#showDetail{
+	font-size:18px;
+	margin:15px;
+}
+
+#form{
+		margin: 15px;
+}
