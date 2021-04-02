@@ -18,8 +18,6 @@ function showTime() {
 		sec = sec < 10 ? "0" + sec : sec;
 
 		document.getElementById("time").innerText= hour + " : " + min + " : " + sec + " " +session;
-
-
 }
 showTime();
 
@@ -30,6 +28,7 @@ function showDate(){
 	var year = date.getFullYear();
 
 	document.getElementById("date").innerText = day + " / " + month + " / " + year;
+	startTime();
 }
 showDate();
 
